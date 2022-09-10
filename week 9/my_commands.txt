@@ -1,0 +1,5 @@
+with open("whatever.txt", "w") as file_to_work_with:This line opens the text file whatever.txt if such a file exists. If it doesn't exist,
+Python creates it.Here's the breakdown.
+with is a puzzling (to me) way to tell Python to close the file after you
+write to it…with open("whatever.txt", "w") as file_to_work_with:
+open is easy to remember…
